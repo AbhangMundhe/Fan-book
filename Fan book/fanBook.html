@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Kantumruy Pro", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 450;
+        font-style: normal;
+      }
+      .header {
+        width: 100%;
+        height: 250px;
+        color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+      }
+      .myform {
+        width: 95%;
+        max-width: 500px;
+        margin: 20px auto 0px auto;
+        box-shadow: 0px 0px 3px 0px black;
+        color: black;
+        padding: 20px;
+      }
+      .card {
+        margin: 20px auto 0px auto;
+        width: 95%;
+        max-width: 500px;
+        margin-bottom: 20px;
+      }
+    </style>
+
+    <title>Sparta Coding Club | Bootstrap Practice</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Marathi Movie Fan Book</h1>
+    </div>
+    <div class="myform">
+      <div class="form-floating mb-3">
+        <input
+          type="email"
+          class="form-control"
+          id="floatingInput"
+          placeholder="name@example.com"
+        />
+        <label for="floatingInput">Nickname</label>
+      </div>
+      <div class="form-floating">
+        <textarea
+          class="form-control"
+          placeholder="Leave a comment here"
+          id="floatingTextarea2"
+          style="height: 100px"
+        ></textarea>
+        <label for="floatingTextarea2">Fan Message</label>
+      </div>
+      <button type="button" class="btn btn-dark mt-3">
+        Leave a fan message
+      </button>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <h3>Love your new movie!</h3>
+        <p>-Shivrayancha Chava</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h3>You're the best</h3>
+        <p>-Nana Patekar</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h3>Review</h3>
+        <p>-VFX used are really good</p>
+      </div>
+    </div>
+  </body>
+</html>
